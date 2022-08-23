@@ -1,5 +1,8 @@
-# agoda-recommendation
-This project aims to provide a list of accommodations recommendations from Agoda base on the features that the user prefers.
+# Agoda Accomodation Recommendation
+
+<a href="url"><img src="https://upload.wikimedia.org/wikipedia/en/c/cc/Agoda_mainlogo_stack_positive_ai_Main_Logo.jpg" height="250" width="500" ></a>
+
+<p>This project aims to provide a list of accommodations recommendations from Agoda base on the features that the user prefers.
 
 The raw dataset contains the availability of 300 accommodations for the month of November 2020. 
 
@@ -12,7 +15,7 @@ There are 7 types of accomodations found on Agoda:
 - Boat/cruise
 - Resort villa
 
-There are 25 types of features from which user can select their top 3 to filter on:
+There are 25 types of features from which user can select their top 3 to rank the order of priority:
 - Number of Stars
 - Review Score
 - Cleanliness
@@ -39,6 +42,8 @@ There are 25 types of features from which user can select their top 3 to filter 
 - Ironing
 - Non-Smoking
 
-Base on the user's (1) date, (2) accomodation type and (3) top 3 features, the top 5 accomodations available will be listed.
+Base on the user's (1) date/s, (2) accomodation type/s and (3) weightage given to the top 3 features, the top 5 accomodations available will be listed.
+The recommendations is generated based on the average accomodation features' score-to-price ratio.
 
-Dashboard is powered by Dash
+Raw data is scrapeed from Agoda
+Analysis and Dashboard are powered by Python and Dash
